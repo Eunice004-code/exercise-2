@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Event Registration Form</title><br>
+     <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin:10px;
+        }
+    h1{
+        text-align: center;
+
+    }
+    form{
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+    }
+    label
+    {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    input, select , textarea, button
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+   }
+   .form-group
+   {
+    margin-bottom:20px;
+   }
+   .form-group.inline
+   {display: flex;
+    gap: 10px;
+   }
+
+
+     </style>
+        
+     
+</head>
+<body>
+<h1>Tech Event Registration Form</h1>
+
+    <form action="">
+     <label for="Fullname">fullname</label><br>
+     <input type="text" name="Fullname" required>
+     <label for=""></label><br>
+     <label for="Email address">Email address</label><br>
+     <input type="Email address" name="Email address" required>
+     <label for=""></label><br>
+     <label for="Gender">Gender:</label>
+     <label for="male">Male</label>
+     <input type="radio" name="Male">
+     <label for="Female">Female</label>
+     <input type="radio" name="female">
+     <label for=""></label><br>
+     <label for="select your field interest">select your field interest</label><br>
+        <select name="select field interest" >
+            <option value="AI">AI</option>
+            <option value="Web development">Web development</option>
+            <option value="cybersecurity">cybersecurity</option>
+            <option value="data science">data science</option>
+            <option value="cloud computing">cloud computing</option>
+        </select>
+    </form>
+    <form action="">
+
+        <label for="how are you going to attend"> how are you going to attend?</label><br>
+        <label for="In person">In person</label>
+        <input type="radio" name="In person">
+        <label for="radio" name="virtually">virtually</label>
+        <input type="radio" name="virtually"><br>
+            <label for="excitement level">rate your excitement level</label><br>
+            <input type="range" name="excitement level" min="1" max="5">
+             
+      </select>
+        <form action="">
+          <label for="any special requirements">Any special requirements</label><br>
+          <input type="text" rows="500" cols="40000"><br>
+        <label for="Agree to terms & conditions">Agree to terms and Conditions</label><br>
+        <input type="checkbox" name="yes">
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>

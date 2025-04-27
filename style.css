@@ -1,0 +1,21 @@
+.box
+{
+  width: 15rem;
+  height:15rem ;
+  position: fixed;
+
+}
+.red
+{
+  background-color: red;
+  z-index: 5;
+}
+.blue
+{
+  background-color: blue;
+  z-index:3 ;
+  
+}
+
+
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Web Developer</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .sub-header {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!-- Header Row -->
+        <tr>
+            <td colspan="3" class="header">John Doe - Web Developer</td>
+        </tr>
+
+        <!-- Navigation Links -->
+        <tr>
+            <td><a href="#about">About Me</a></td>
+            <td><a href="#portfolio">Portfolio</a></td>
+            <td><a href="#contact">Contact</a></td>
+        </tr>
+        <tr id="about">
+            <td colspan="1"></td>
+            <td colspan="3">
+                <p class="sub-header">About Me</p>
+                <p>Hello! I am John Doe, a passionate web developer specializing in front-end and back-end technologies. I love building interactive and user-friendly web applications.</p>
+                <p>My expertise includes HTML, CSS, JavaScript, and backend technologies like PHP and Python.</p>
+            </td>
+        </tr>
+
+        <!-- Portfolio Section -->
+        <tr id="portfolio">
+            <td colspan="3">
+                <p class="sub-header">Portfolio</p>
+                <table>
+                    <tr>
+                        <td>
+                            <p><strong>Project 1: E-Commerce Website</strong></p>
+                            <p>An online store with secure payment integration and user-friendly UI.</p>
+                            <p><a href="#">View Project</a></p>
+                        </td>
+                        <td>
+                            <p><strong>Project 2: Personal Blog</strong></p>
+                            <p>A responsive blog platform for writers and content creators.</p>
+                            <p><a href="#">View Project</a></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><strong>Project 3: Portfolio Website</strong></p>
+                            <p>A showcase of my projects, skills, and achievements.</p>
+                            <p><a href="#">View Project</a></p>
+                        </td>
+                        <td>
+                            <p><strong>Project 4: Business Dashboard</strong></p>
+                            <p>A real-time analytics dashboard for tracking sales and revenue.</p>
+                            <p><a href="#">View Project</a></p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Contact Section -->
+        <tr id="contact">
+            <td colspan="3">
+                <p class="sub-header">Contact Me</p>
+                <table>
+                    <tr>
+                        <td>Email<br><a href="mailto:johndoe@example.com">johndoe@example.com</a></td>
+                        <td>Phone<br><a href="tel:+123456789">+123 456 789</a></td>
+                    </tr>
+                    <tr>
+                        <td>LinkedIn<br><a href="#">LinkedIn Profile</a></td>
+                        <td>GitHub<br><a href="#">GitHub Profile</a></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+            <td colspan="3">&copy; 2025 John Doe | All Rights Reserved</td>
+        </tr>
+    </table>
+</body>
+</html>
